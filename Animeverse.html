@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+      /* div{
+        border: 1px solid white;
+      } */
+       .card1:hover{
+        transform: scale(1.13);
+       }
+    </style>
+</head>
+
+<body class="bg-dark text-white" >
+
+  <!-- navigation bar by offcanvas -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Animeverse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Animeverse</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Anime</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Event</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- craousel -->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="./baki 4.jpg" class="d-block w-100" alt="..." height="630px">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./baki 2.jpeg" class="d-block w-100" alt="..." height="630px">
+    </div>
+    <div class="carousel-item">
+      <img src="./baki3.jpg" class="d-block w-100" alt="..." height="630px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- container grid by multiple card -->
+ <div class="container p-4">
+  <h4 class="mt-5 mb-5 text-center">-----Related Movies-----</h4>
+  <div class="row mt-4 mb-4">
+    <div class="col">
+      <div class="card1" style="width: 14rem;">
+  <img src="./1.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+</div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./2.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./3.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./4.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+  </div>
+  <div class="row mt-4 mb-4">
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./5.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./6.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./7.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./8.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+  </div>
+  <div class="row mt-4 mb-4">
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./1.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./2.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./3.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./4.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+  </div>
+  <div class="row mt-4 mb-4">
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./5.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./6.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./7.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+    <div class="col">
+        <div class="card1" style="width: 14rem;">
+  <img src="./8.jpeg" class="card1-img-top" alt="..." height="300px">
+</div>
+    </div>
+  </div>
+ </div>
+
+ <!-- pagination -->
+  <nav aria-label="...">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <span class="page-link bg-dark text-white">Previous</span>
+    </li>
+    <li class="page-item active"><a class="page-link bg-dark text-white" href="#">1</a></li>
+    <li class="page-item" aria-current="page">
+      <span class="page-link bg-dark text-white">2</span>
+    </li>
+    <li class="page-item"><a class="page-link bg-dark text-white" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link bg-dark text-white" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- contact us -->
+ <section class="p-5">
+  <div class="container-fluid">
+
+    <div class="row p-4">
+      <div class="col-4 mt-5">
+        <div class="card" style="width: 18rem;">
+  <img src="./5.jpeg" class="card-img-top img-fluid" alt="...">
+</div>
+</div>
+      <div class="col">
+        <h1>Contact Us</h1>
+        <p>Get in Touch</p>
+        <form action="">
+               <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Name</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+</div>
+          <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+  <br>
+  <button type="button" class="btn btn-primary">Send Message</button>
+</div>
+        </form>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<!-- footer -->
+ <div class="card text-center bg-dark">
+  <div class="card-header">
+    <a href="#" class="text-white">
+      <i class="bi bi-arrow-up-circle"></i>
+    </a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item" >
+        <a class="nav-link active text-white" href="#" data-bs-target="#Modal1" data-bs-toggle="modal">A-Z list</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link text-white" href="#" data-bs-target="#Modal1" data-bs-toggle="modal" >Recently Added</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" aria-disabled="true" data-bs-target="#Modal1" data-bs-toggle="modal" href="#">Upcoming</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link text-white" aria-disabled="true" href="#" data-bs-target="#Modal1" data-bs-toggle="modal">MostWatched</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link text-white" aria-disabled="true" href="#" data-bs-target="#Modal1" data-bs-toggle="modal">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" aria-disabled="true" href="#" data-bs-target="#Modal1" data-bs-toggle="modal">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-white">Animeverses<sup><i class="bi bi-r-circle-fill"></i></sup></h5>
+    <p class="card-text">@Copyright<i class="bi bi-c-circle-fill"></i> all rights are reserved.</p>
+  </div>
+</div>
+<!-- modal -->
+ <div class="modal text-info" tabindex="-1" id="Modal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Animeverse</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>This feature launches soon</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
